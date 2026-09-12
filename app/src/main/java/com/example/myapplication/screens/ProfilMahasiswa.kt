@@ -43,17 +43,6 @@ fun ProfilMahasiswa(modifier: Modifier = Modifier) {
                         .background(Color.LightGray)
                         .padding(8.dp)
                 )
-                // Ikon Indikator Edit
-                Icon(
-                    imageVector = Icons.Default.Edit,
-                    contentDescription = "Edit Profil",
-                    modifier = Modifier
-                        .size(24.dp)
-                        .clip(RectangleShape)
-                        .background(Color.White)
-                        .padding(4.dp),
-                    tint = Color.DarkGray
-                )
             }
 
             Spacer(modifier = Modifier.size(16.dp))
